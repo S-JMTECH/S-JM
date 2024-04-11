@@ -88,8 +88,9 @@
       }, 1000); // Adjust delay between words
     }
   }
-
+if (document.location.pathname === '/' || document.location.href.endsWith('/index.html')) {
   typeWriter();
+  }
 
   /**
    * Toggle .header-scrolled class to #header when page is scrolled
